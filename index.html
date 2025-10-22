@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PackingRaja - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    // Smooth scrolling for nav links
+    document.addEventListener("DOMContentLoaded", () => {
+      const links = document.querySelectorAll("nav a");
+      links.forEach(link => {
+        link.addEventListener("click", e => {
+          e.preventDefault();
+          const targetID = link.getAttribute("href").substring(1);
+          const targetSection = document.getElementById(targetID);
+          if (targetSection) {
+            targetSection.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <img src="images/Logo.jpg" alt="PackingRaja Logo" class="logo" />
+      <div class="logo-text">PackingRaja.com</div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#policies">Policies</a>
+      <a href="#contact">Contact</a>
+      <a href="#customer-access">Customer Access</a>
+      <a href="#linkedin">LinkedIn</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Smart Packaging Solutions for Every Business</h2>
+    <p>Your trusted partner for custom boxes, tapes, and courier supplies.</p>
+  </section>
+
+  <section id="about" class="content">
+    <h3>About PackingRaja</h3>
+    <p>Founded by Anand Agarwal in Jaipur, PackingRaja.com makes high-quality, customizable packaging accessible for Indian businesses. Serving e-commerce, retail, and industry with reliable materials and expert guidance.</p>
+  </section>
+
+  <section id="products" class="content">
+    <h3>Our Products</h3>
+    <ul class="product-list">
+      <li><img src="images/corrugated_box.jpg" alt="Corrugated Boxes" /><p>Corrugated Boxes - Ready Size & Customized</p></li>
+      <li><img src="images/courier_bags.jpg" alt="Courier Bags" /><p>Courier Bags - Plain, Preprinted & Custom Printed</p></li>
+      <li><img src="images/bopp_tapes.jpg" alt="BOPP Tapes" /><p>BOPP Tapes - Plain, Preprinted & Custom Printed</p></li>
+      <li><img src="images/thermocol_sheets.jpg" alt="Thermocol Sheets" /><p>Thermocole - Sheets, Mug Set, Custom Shape & Size</p></li>
+      <li><img src="images/epe_foam.jpg" alt="EPE Foam" /><p>EP Foam - Preset Sheets & Custom Shape/Size</p></li>
+      <li><img src="images/bopp_bags.jpg" alt="BOPP Bags" /><p>BOPP Bags - Plain & Custom Printed</p></li>
+      <li><img src="images/paper_flyers.jpg" alt="Paper Flyers" /><p>Paper Flyers - Plain, Preprinted & Custom Printed</p></li>
+      <li><img src="images/rigid_boxes.jpg" alt="Rigid Boxes" /><p>Rigid Boxes - Custom Boxes on Demand</p></li>
+      <li><img src="images/thermal_labels.jpg" alt="Thermal Labels" /><p>Thermal Label - Roll & Sheet Options</p></li>
+    </ul>
+  </section>
+
+  <section id="policies" class="content">
+    <h3>Our Policies</h3>
+
+    <h4>Order Payment and Ownership</h4>
+    <p>50% advance payment is mandatory for all custom-made orders. The balance payment must be cleared before dispatch. Goods remain the property of PackingRaja until full payment is received.</p>
+
+    <h4>Returns and Replacements</h4>
+    <p>Goods once delivered will only be replaced if found defective due to manufacturing defects, and the defect is reported within 5 days of delivery.</p>
+
+    <h4>Shipping Delays</h4>
+    <p>PackingRaja is not liable for any delays or failures in delivery caused by circumstances beyond our control, including courier delays, weather, or force majeure events.</p>
+
+    <h4>Payment Verification</h4>
+    <p>Please always verify bank account details before transferring funds. PackingRaja will not be responsible for payments made to incorrect or fraudulent accounts.</p>
+
+    <h4>Sampling Costs</h4>
+    <p>Sampling costs may or may not be adjusted against the final invoice depending on the case.</p>
+
+    <h4>Dispute Resolution</h4>
+    <p>Any disputes arising out of invoices or transactions will be subject to the jurisdiction of Jaipur, Rajasthan courts exclusively.</p>
+
+    <h4>Taxes</h4>
+    <p>All taxes, including GST or other applicable taxes, are included or excluded as specifically mentioned on invoices.</p>
+
+    <h4>GST Compliance</h4>
+    <p>GSTINs submitted must be valid and active. Mismatched or invalid GSTINs may result in invoice cancellation or GST input credit denial.</p>
+  </section>
+
+  <section id="contact" class="content">
+    <h3>Contact Us</h3>
+    <p>Email: info@packingraja.com</p>
+    <p>Phone: +91 141 796 4637 | WhatsApp: +91-9413676101</p>
+    <p>Address: B-76, Shivshakti Nagar, Jagatpura Road, Malviya Nagar, Jaipur, Rajasthan – 302017</p>
+
+    <h4>Our Location</h4>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.712496771678!2d75.82948267503414!3d26.863068883155285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4f5024b2db9%3A0x4cbd5031dee48f04!2sB-76%2C%20Shivshakti%20Nagar%2C%20Jagatpura%20Rd%2C%20Malviya%20Nagar%2C%20Jaipur%2C%20Rajasthan%20302017!5e0!3m2!1sen!2sin!4v169803830XXXX" 
+      width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <section id="customer-access" class="content">
+    <h3>Customer Portal Login</h3>
+    <p>Registered customers can securely access PackingRaja invoices and documents through the Zoho customer portal.</p>
+    <p><a href="https://books.zohosecure.in/portal/packingraja" target="_blank" class="portal-link">Click here to access your customer portal</a></p>
+    <ul>
+      <li>Use the email registered with Packing Raja on which you received the invitation email.</li>
+      <li>Sign in using the OTP sent to your registered email for secure access.</li>
+    </ul>
+    <p>For login help, email: info@packingraja.com</p>
+  </section>
+
+  <section id="linkedin" class="content">
+    <h3>Visit us on LinkedIn</h3>
+    <p>Stay updated with our latest news and posts:<br/>
+      <a href="https://www.linkedin.com/company/packingraja" target="_blank" class="linkedin-link">PackingRaja LinkedIn Profile</a>
+    </p>
+  </section>
+
+  <section id="reviews" class="content">
+    <h3>Customer Reviews</h3>
+    <iframe 
+      src="https://widgets.sociablekit.com/google-reviews/iframe/25613064" 
+      width="100%" height="450" style="border:none;" scrolling="no" loading="lazy" 
+      title="PackingRaja Google Reviews">
+    </iframe>
+  </section>
+
+  <!-- WhatsApp Floating Chat Button -->
+  <a href="https://wa.me/919413676101" class="whatsapp-chat" target="_blank" title="Chat with us on WhatsApp">
+    <img src="images/whatsapp-icon.jpg" alt="WhatsApp Chat" />
+  </a>
+
+  <footer>
+    <p>© 2025 PackingRaja.com</p>
+  </footer>
+</body>
+</html>
